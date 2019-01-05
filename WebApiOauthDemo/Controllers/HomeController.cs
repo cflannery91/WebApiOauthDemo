@@ -14,5 +14,10 @@ namespace WebApiOauthDemo.Controllers
 
             return View();
         }
+
+        public int Add(int x, int y)
+        {
+            return x + y;
+        }
     }
 }
